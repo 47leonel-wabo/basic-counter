@@ -1,1 +1,1 @@
-# React basic-counter
+# React basic-counter App
