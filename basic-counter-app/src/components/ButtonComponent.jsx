@@ -4,13 +4,6 @@ import '../ButtonComponent.css'
 
 class ButtonComponent extends React.Component{
 
-	constructor(){
-		super()
-		this.state={
-			value: 0
-		}
-	}
-
 	render = () => {
 		return (
 			<button className="numButton" onClick={this.incrementNumber}>{this.props.btnValue}</button>
@@ -18,10 +11,7 @@ class ButtonComponent extends React.Component{
 	}
 
 	incrementNumber = () => {
-		this.setState({
-			value: this.state.value + this.props.btnValue
-		})
-		console.log(this.state.value)
+		this.props.incrementMethod(this.props.btnValue)
 	}
 }
 
