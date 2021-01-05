@@ -5,7 +5,7 @@ class HeadComponent extends Component {
 	constructor(){
 		super()
 		this.state = {
-			title: 'Basic Calculator'
+			title: 'Basic Dummy Calculator'
 		}
 	}
 	render = () => {

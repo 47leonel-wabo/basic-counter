@@ -20,6 +20,11 @@ class App extends React.Component{
           <ButtonComponent btnValue={8} incrementMethod={this.incrementConterValue}/>
           <ButtonComponent btnValue={7} incrementMethod={this.incrementConterValue}/>
         </div>
+        <div className="numPad-neg">
+          <ButtonComponent btnValue={-9} incrementMethod={this.incrementConterValue}/>
+          <ButtonComponent btnValue={-8} incrementMethod={this.incrementConterValue}/>
+          <ButtonComponent btnValue={-7} incrementMethod={this.incrementConterValue}/>
+        </div>
         <div className="resultPart">
           <span className="spanCounter">{this.state.counter}</span>
         </div>
