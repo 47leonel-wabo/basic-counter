@@ -11,14 +11,14 @@ class App extends React.Component{
       counter: 0
     }
   }
-  render = () =>{
+  render = () => {
     return (
       <div className="App">
         <div className="numPad">
           <HeadComponent />
-          <ButtonComponent />
-          <ButtonComponent />
-          <ButtonComponent />
+          <ButtonComponent btnValue={9} />
+          <ButtonComponent btnValue={8} />
+          <ButtonComponent btnValue={7} />
         </div>
         <div className="resultPart">
           <span className="spanCounter">{this.state.counter}</span>

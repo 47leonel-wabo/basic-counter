@@ -1,5 +1,6 @@
 .numButton{
-	padding: 4px 32px;
+	padding: 8px 32px;
+  	border: none;
 	font-size: 14px;
 	background-color: #a3ddcb;
 	margin: 2px 4px;

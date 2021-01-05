@@ -2,9 +2,15 @@ import React, {Component} from 'react'
 import '../HeadComponent.css'
 
 class HeadComponent extends Component {
-	render() {
+	constructor(){
+		super()
+		this.state = {
+			title: 'Basic Calculator'
+		}
+	}
+	render = () => {
 		return (
-			<h1>Basic Calculator</h1>
+			<h1>{this.state.title}</h1>
 			)
 	}
 }
